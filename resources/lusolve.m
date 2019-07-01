@@ -1,0 +1,23 @@
+function x = lusolve(LU,p,b)
+% x=lusolve(LU,p,b)
+% parametri
+% LU-> matrice nxn fattorizata LU
+% p->vettore delle permutazioni
+% b->vettore dei termini noti
+% Data una matrice nxn fattorizzata LU,  p vettore delle permutazioni e 
+% b di lunghezza n, risolve Ax=b, cioè LUx=b Ux=y e Ly=b
+[m,n]= size (LU);
+lb = length (b);
+if abs(m-n) >0 || abs(lb-n) >0
+    error ("dati in ingresso errati");
+end
+b=b(p);
+x=b(:);
+for j=2:n
+    x(j:n)=x(j:n)-LU(j:n,j-1)*x(j-1);
+end
+for j=n:-1:1
+    x(j)=x(j)/LU(j,j);
+    x(1:j -1) =x(1:j -1) -LU(1:j -1,j)*x(j);
+end
+return

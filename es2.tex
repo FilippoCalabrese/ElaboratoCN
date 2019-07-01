@@ -1,0 +1,35 @@
+\section{Esercizio 2}
+\textit{\textbf{Descrizione:} Quanti sono i numeri di macchina normalizzati della doppia precisione IEEE? Argomentare la risposta.}\newline
+
+\emph{Soluzione: }\\~\\
+\noindent L'insieme dei numeri di macchina $\mathcal{M}$ \'e un insieme finito di elementi, tramite i quali \'e possibile rappresentare un insieme denso $\mathcal{I}$ e che rappresenta un sottoinsieme dei numeri reali  $\mathcal{I} \subset \mathbb{R}$.
+
+\begin{equation}
+	 \mathcal{I} = \left [ -real_{max}, -real_{min}\right ] \cup \left \{  0\right \} \cup \left [real_{min}, real_{max} \right]
+\end{equation}
+
+\noindent con $real_{max}$ e $real_{min}$ che indicano rispettivamente il pi\'u grande ed il pi\'u piccolo in valore assoluto tra i numeri macchina diversi da 0.
+\\~\\
+\noindent Per trovare i numeri di macchina normalizzati che possono essere ottenuti della doppia precisione IEEE possiamo considerare la seguente formula
+
+
+\begin{equation}
+  \begin{aligned}
+      b^{s} \cdot b^{m} \cdot (b^{e} - b^{s})\\
+  \end{aligned}
+\end{equation}
+
+\noindent dove indichiamo con $b$ la base utilizzata, $s$ i bit riservati per il segno, $m$ i bit riservati per la mantissa ed $e$ i bit riservati per l'esponente.
+\\~\\
+Considerando che lo standard \textit{ANSI/IEEE 754-1985} utilizza una base binaria abbiamo b = 2, inoltre per il formato a doppia precisone abbiamo 1 bit per il segno ($s=1$), 52 bit per la mantissa ($m=52$) e 11 bit per l'esponente ($e=11$),
+\\~\\
+andando a sostituire i valori appena ricavati nella formula (1.6) otteniamo i numeri di macchina normalizzati che possono essere ottenuti della doppia precisione IEEE, quindi:
+\begin{equation}
+  \begin{aligned}
+      & =  2^{1} \cdot 2^{52} \cdot (2^{11} - 2^{1}) = \\
+      & = 2^{1+52} \cdot (2^{11} - 2^{1}) = \\
+      & = 2^{1+52+11} - 2^{1+52+1} = \\
+      & = 2^{64} - 2^{54} = 18,428,729,675,200,069,632 
+  \end{aligned}
+\end{equation}
+\newpage

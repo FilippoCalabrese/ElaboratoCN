@@ -1,0 +1,69 @@
+%% LyX 2.0.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{book}
+\usepackage[latin9]{inputenc}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{esint}
+
+% Prova Stile Capitolo
+\usepackage[Glenn]{fncychap}
+
+%\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\DeclareRobustCommand{\greektext}{%
+  \fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
+\DeclareRobustCommand{\textgreek}[1]{\leavevmode{\greektext #1}}
+\DeclareFontEncoding{LGR}{}{}
+\DeclareTextSymbol{\~}{LGR}{126}
+\newcommand{\lyxmathsym}[1]{\ifmmode\begingroup\def\b@ld{bold}
+  \text{\ifx\math@version\b@ld\bfseries\fi#1}\endgroup\else#1\fi}
+
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+%% A simple dot to overcome graphicx limitations
+\newcommand{\lyxdot}{.}
+
+
+\makeatother
+
+\usepackage{babel}
+
+\begin{document}
+
+\title{Elaborato di Calcolo Numerico}
+
+
+\author{Finoia Luca  6132811 Calabrese Filippo 5826217 }
+
+\maketitle 
+
+% Capitolo 1
+\include{es1}
+\include{es2}
+\include{es3}
+\include{es4}
+%Capitolo 2 
+\include{es5}
+\include{es6}
+\include{es7}%da ricontrollare
+% Capitolo 3
+\include{es8}
+\include{es9}
+\include{es10}
+\include{es11}
+\include{es12}
+\include{es13}
+% Capitolo 4
+\include{es14}
+\include{es15}
+%Capitolo 5
+\include{es22}
+\include{es23}
+%Capitolo 6
+\include{es24}
+\end{document}
