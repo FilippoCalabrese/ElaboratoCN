@@ -1,7 +1,7 @@
-17(opzionale)
-18(da rivedere una volta fatto il 17)
+17 X
+18(da plottare con il codice di 17) X
 19
 20
-21
-25
-28
+21 X
+25 X
+28 X
