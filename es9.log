@@ -1,0 +1,552 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.19)  19 JUL 2019 18:02
+entering extended mode
+**./es9.tex
+(es9.tex
+LaTeX2e <2018-12-01>
+! Undefined control sequence.
+l.1 \section
+            {Esercizio 9}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{E
+              sercizio 9}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no 9 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[]
+ []
+
+
+Overfull \hbox (18.22203pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 De-
+ []
+
+
+Overfull \hbox (48.51344pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 scrizione:
+ []
+
+
+Overfull \hbox (21.08318pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 Scri-
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 vere
+ []
+
+
+Overfull \hbox (16.09991pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 una
+ []
+
+
+Overfull \hbox (22.23318pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 func-
+ []
+
+
+Overfull \hbox (17.12212pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 tion
+ []
+
+
+Overfull \hbox (20.97763pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 Mat-
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 lab
+ []
+
+
+Overfull \hbox (17.37766pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 che,
+ []
+
+
+Overfull \hbox (18.65544pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 data
+ []
+
+
+Overfull \hbox (8.68884pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 in
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 in-
+ []
+
+
+Overfull \hbox (26.19424pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 gresso
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (16.86656pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 ma-
+ []
+
+
+Overfull \hbox (19.29427pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 trice
+ []
+
+
+Overfull \hbox (15.78596pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 LU
+ []
+
+
+Overfull \hbox (9.19992pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 ed
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (16.09985pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 vet-
+ []
+
+
+Overfull \hbox (16.73874pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 tore
+ []
+
+
+Overfull \hbox (5.91104pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 p
+ []
+
+
+Overfull \hbox (23.89423pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 creati
+ []
+
+
+Overfull \hbox (20.95544pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 dalla
+ []
+
+
+Overfull \hbox (22.23318pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 func-
+ []
+
+
+Overfull \hbox (17.12212pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 tion
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 del
+ []
+
+
+Overfull \hbox (25.17197pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 prece-
+ []
+
+
+Overfull \hbox (23.25539pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 dente
+ []
+
+
+Overfull \hbox (12.26657pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 es-
+ []
+
+
+Overfull \hbox (12.39433pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 er-
+ []
+
+
+Overfull \hbox (22.99986pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 cizio,
+ []
+
+
+Overfull \hbox (9.19992pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 ed
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (21.46654pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 mine
+ []
+
+
+Overfull \hbox (19.16655pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 noto
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 del
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 sis-
+ []
+
+
+Overfull \hbox (21.21097pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 tema
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 lin-
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 eare
+ []
+
+
+Overfull \hbox (14.26099pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 Ax
+ []
+
+
+Overfull \hbox (8.85545pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 =
+ []
+
+
+Overfull \hbox (8.38881pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 b\OT1/cmr/m/it/10 ,
+ []
+
+
+Overfull \hbox (10.22215pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 ne
+ []
+
+
+Overfull \hbox (15.3332pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 cal-
+ []
+
+
+Overfull \hbox (14.82211pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 coli
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (42.67754pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 soluzione:
+ []
+
+
+Overfull \hbox (26.17201pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 func-
+ []
+
+
+Overfull \hbox (19.81647pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 tion
+ []
+
+
+Overfull \hbox (5.60551pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 x
+ []
+
+
+Overfull \hbox (8.85545pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 =
+ []
+
+
+Overfull \hbox (13.31653pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 lu-
+ []
+
+
+Overfull \hbox (71.05484pt too wide) in paragraph at lines 1--3
+\OT1/cmr/bx/it/10 solve(LU,p,b)\OT1/cmr/m/it/10 .
+ []
+
+
+Overfull \hbox (16.09988pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 Cu-
+ []
+
+
+Overfull \hbox (17.12206pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 rare
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 par-
+ []
+
+
+Overfull \hbox (9.96658pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 ti-
+ []
+
+
+Overfull \hbox (12.77766pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 co-
+ []
+
+
+Overfull \hbox (15.461pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 lar-
+ []
+
+
+Overfull \hbox (26.32204pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 mente
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (22.87204pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 scrit-
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 tura
+ []
+
+
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 e
+ []
+
+
+Overfull \hbox (46.12749pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 l'efficienza
+ []
+
+
+Overfull \hbox (20.44432pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 della
+ []
+
+
+Overfull \hbox (22.23318pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 func-
+ []
+
+
+Overfull \hbox (20.18877pt too wide) in paragraph at lines 1--3
+\OT1/cmr/m/it/10 tion. 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \noindent
+              \textit{\textbf{Svolgimento:}}\newline
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (64.82988pt too wide) in paragraph at lines 4--5
+\OT1/cmr/bx/it/10 Svolgimento: 
+ []
+
+! Undefined control sequence.
+l.6 \section
+            *{Risoluzione matrice fattorizzata LU}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \section*
+             {Risoluzione matrice fattorizzata LU}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no U in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--7
+[]
+ []
+
+! Undefined control sequence.
+l.8 \lstinputlisting
+                    {resources/lusolve.m}\newpage
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \lstinputlisting{r
+                      esources/lusolve.m}\newpage
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--8
+[] 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \lstinputlisting{resources/lusolve.m}\newpage
+                                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/Filippo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+! Emergency stop.
+<*> ./es9.tex
+             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 14 strings out of 492895
+ 207 string characters out of 3122801
+ 60303 words of memory out of 3000000
+ 4026 multiletter control sequences out of 15000+200000
+ 4345 words of font info for 16 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 19i,4n,14p,401b,115s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -4,13 +4,15 @@ function x = lusolve(LU,p,b)
 % LU-> matrice nxn fattorizata LU
 % p->vettore delle permutazioni
 % b->vettore dei termini noti
-% Data una matrice nxn fattorizzata LU,  p vettore delle permutazioni e 
-% b di lunghezza n, risolve Ax=b, cioè LUx=b Ux=y e Ly=b
+% Data una matrice nxn fattorizzata LU,  p vettore delle permutazioni e
+% b di lunghezza n, risolve Ax=b, cioï¿½ LUx=b Ux=y e Ly=b
 [m,n]= size (LU);
 lb = length (b);
-if abs(m-n) >0 || abs(lb-n) >0
-    error ("dati in ingresso errati");
-end
+if m~=n, error ('La matrice LU non e quadrata .'); end
+if length (p )~= n
+  error ('Vettore di permutazione non consistente con la matrice '); end
+if length (b )~= n
+  error ('Vettore di permutazione non consistente con la matrice '); end
 b=b(p);
 x=b(:);
 for j=2:n
