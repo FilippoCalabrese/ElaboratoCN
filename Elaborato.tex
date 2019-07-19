@@ -18,12 +18,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
 \DeclareRobustCommand{\greektext}{%
-  \fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
+\fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
 \DeclareRobustCommand{\textgreek}[1]{\leavevmode{\greektext #1}}
 \DeclareFontEncoding{LGR}{}{}
 \DeclareTextSymbol{\~}{LGR}{126}
 \newcommand{\lyxmathsym}[1]{\ifmmode\begingroup\def\b@ld{bold}
-  \text{\ifx\math@version\b@ld\bfseries\fi#1}\endgroup\else#1\fi}
+\text{\ifx\math@version\b@ld\bfseries\fi#1}\endgroup\else#1\fi}
 
 %% Because html converters don't know tabularnewline
 \providecommand{\tabularnewline}{\\}
@@ -59,6 +59,8 @@
 
 \maketitle 
 
+\tableofcontents
+
 % Capitolo 1
 \include{es1}
 \include{es2}
@@ -85,7 +87,6 @@
 \include{es23}
 %Capitolo 6
 \include{es24}
-\include{es25}
 \include{es26}
 \include{es27}
 \end{document}
