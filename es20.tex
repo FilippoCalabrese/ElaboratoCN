@@ -1,0 +1,38 @@
+\section{Esercizio 20}
+
+\textit
+Con riferimento al precedente esercizio, tabulare il massimo errore di approssimazione (calcolato come sopra indicato), sia utilizzando le ascisse equidistanti che quelle di Chebyshev su menzionate, relativo alla spline cubica naturale interpolante $f(x)$ su tali ascisse.
+\newline
+\noindent\emph{Soluzione: }\newline
+Utilizzando il seguente \emph{script}, tabuliamo il massimo errore di approssimazione in relazione ad \emph{n}, sia usando \emph{Ascisse Equidistanti} sia usando le \emph{Ascisse di Chebyshev}:
+\section*{Tabulazione errore di interpolazione:}
+\lstinputlisting{resources/20Tabulazione.m}
+\newpage
+Per la tabulazione, è stato utilizzato il seguente \emph{script}:\\
+\lstinputlisting{resources/19tabulazione.m}
+Di seguito riportiamo i risultati ottenuti dall'esecuzione:\\ \\
+\begin{tabular}{|c|c|c|}	%	TABELLA ERRORE MASSIMO
+	\hline
+	n&Asc. Equidistanti&Asc. Chebyschev\\ \hline
+	 2&$ 6.01194546811499 \cdot 10^{-1}   $&$ 6.01194546811499 \cdot 10^{-1} $\\ \hline
+4&$ 2.79313407519679 \cdot 10^{-1}   $&$ 3.39131026109277 \cdot 10^{-1} $\\ \hline
+6&$ 1.29300088354098 \cdot 10^{-1}   $&$ 2.18135003973960 \cdot 10^{-1} $\\ \hline
+8&$ 5.6073852878562 \cdot 10^{-2}    $&$ 1.36254235305040 \cdot 10^{-1} $\\ \hline
+10&$ 2.1973825749582 \cdot 10^{-2}    $&$ 8.2370601192499 \cdot 10^{-2} $\\ \hline
+12&$ 6.908801437726 \cdot 10^{-3} $&$ 4.8074211277442 \cdot 10^{-2} $\\ \hline
+14&$ 2.482863475717 \cdot 10^{-3} $&$ 2.6851489822686 \cdot 10^{-2} $\\ \hline
+16&$ 3.745402833396 \cdot 10^{-3} $&$ 1.4031887250398 \cdot 10^{-2} $\\ \hline
+18&$ 3.717998718041 \cdot 10^{-3} $&$ 6.489162938626 \cdot 10^{-3} $\\ \hline
+20&$ 3.182857643174 \cdot 10^{-3} $&$ 2.216040957510 \cdot 10^{-3} $\\ \hline
+22&$ 2.529653088972 \cdot 10^{-3} $&$ 3.078305878636 \cdot 10^{-3} $\\ \hline
+24&$ 1.925792361619 \cdot 10^{-3} $&$ 3.665162885583 \cdot 10^{-3} $\\ \hline
+26&$ 1.427047863663 \cdot 10^{-3} $&$ 3.755656321067 \cdot 10^{-3} $\\ \hline
+28&$ 1.039053280857 \cdot 10^{-3} $&$ 3.559859767591 \cdot 10^{-3} $\\ \hline
+30&$ 8.24362333267 \cdot 10^{-4} $&$ 3.218191413753 \cdot 10^{-3} $\\ \hline
+32&$ 6.55498681241 \cdot 10^{-4} $&$ 2.819367883114 \cdot 10^{-3} $\\ \hline
+34&$ 5.23708228635 \cdot 10^{-4} $&$ 2.416245085713 \cdot 10^{-3} $\\ \hline
+36&$ 4.21003570779 \cdot 10^{-4} $&$ 2.037950397401 \cdot 10^{-3} $\\ \hline
+38&$ 3.40837796214 \cdot 10^{-4} $&$ 1.698506006900 \cdot 10^{-3} $\\ \hline
+40&$ 2.77976540596 \cdot 10^{-4} $&$ 1.402824430908 \cdot 10^{-3} $\\ \hline
+\end{tabular}
+\\ \\Nel caso proposto in questo esercizio, notiamo che la scelta delle \emph{Ascisse Equidistanti} risulta vantaggiosa rispetto alle \emph{Ascisse di Chebyshev}.
