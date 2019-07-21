@@ -3,11 +3,16 @@ function x= qrsolve(A,b)
 % parametri
 % A -> Matrice fattorizzata QR
 % b -> vettore dei termini noti
-% la funzione risolve il sistema lineare Ax=b dove A è
+% la funzione risolve il sistema lineare Ax=b dove A ï¿½
 % una matrice fattorizzata QR
 [m,n]=size(A);
+if m < n
+  error ('QR non contiene i dati della fattorizzazione qr.');
+end
+if m ~= length (b)
+  error ('Matrice e vettore dei termini noti non consistenti .');
+end
 x=b;
-if length(b)~=m,error('dati inconsistenti');end
 for i=1:n
    v=[1; A(i+1:m,i)];
    beta = 2/(v'*v);
