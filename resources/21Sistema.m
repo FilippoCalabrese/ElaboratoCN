@@ -1,19 +1,4 @@
-b = 5; a = -5;
-x = a : (b-a)/10000 : b;
-f = @(x) 1./(1 + x.^2);
-valEffett = feval(f,x);
-
-E = zeros(20, 3);
-E(:,1) = 2:2:40; 
-
-for n = 2 : 2 : 40
-	xEq = a : (b-a)/n : b;
-	xCh = (a+b)/2 + ((b-a)/2)*cos(((2*(n:-1:0))+1)*pi/((2*n)+2));
-	xCh(1) = floor(xCh(1));
-	xCh(end) = ceil(xCh(end));
-
-	equid = splineCubica(xEq,feval(f,xEq),x,0);
-	chebysh = splineCubica(xCh,feval(f,xChxi = [0.010, 0.098, 0.127, 0.278, 0.547, 0.632, 0.815,...
+xi = [0.010, 0.098, 0.127, 0.278, 0.547, 0.632, 0.815,...
       0.906, 0.913, 0.958, 0.965];
 yi = [1.003626, 1.025686, 1.029512, 1.029130, 0.994781,...
       0.990156, 1.016687, 1.057382, 1.061462, 1.091263,...
@@ -42,9 +27,4 @@ for n = 1:11
 	% per graficare i risultati ottenuti su n
 	err(n) = norm(abs((A*x)-yi'));
 end
-semilogy((1:11),err)),x,0);
-
-	E(n/2, 2) = max(abs(valEffett(1:end)-equid(1:end)));
-	E(n/2, 3) = max(abs(valEffett(1:end)-chebysh(1:end)));
-
-end
+semilogy((1:11),err)
