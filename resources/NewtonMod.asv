@@ -16,16 +16,13 @@ i=1;
 fx=feval(f,x0);
 dfx=feval(df,x0);
 x=x0-m*(fx/dfx);
-while(i<itmax && abs(x - x0) >= tol*(1+abs(x)))
+t
+while(i<itmax && abs(x - x0) >= tol*(1+abs(x)) && abs(fx)>tol *(1+ abs(x))*abs (f1x))
     i=i+1;
     x0=x;
     fx=feval(f,x0);
     dfx=feval(df,x0);
-    if(dfx~=0)
-        x=x0-m*(fx/dfx);
-    else
-        break
-    end
+    x=x0-m*(fx/dfx);
 end
 if (abs(x - x0) >= tol*(1+abs(x)))
     error('il metodo non converge');
